@@ -2,43 +2,40 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/custom.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Profiles</title>
+    <link rel="stylesheet" href="custom.css" />
+    <script src="app.js" defer></script>
 </head>
 
 <body>
-    <div class="main">
-        <div class="overlay">
-            <div class="title">We are coming soon</div>
-            <div class="title" id="end-date">20 March 2022 10:00 PM</div>
-            <div class="col">
-                <div>
-                    <input type="text" readonly value="0">
-                    <br/>
-                    <label for="">Days</label>
-                </div>
-                <div>
-                    <input type="text" readonly value="0">
-                    <br/>
-                    <label for="">Hours</label>
-                </div>
-                <div>
-                    <input type="text" readonly value="0">
-                    <br/>
-                    <label for="">Minutes</label>
-                </div>
-                <div>
-                    <input type="text" readonly value="0">
-                    <br/>
-                    <label for="">Seconds</label>
+    <form id="form" onsubmit="return formSubmit()">
+        <input type="text" id="search" autofocus placeholder="Search a Github User Here" />
+    </form>
+    <main id="main">
+        <!-- <div class="card">
+            <div>
+                <img class="avatar" src="https://picsum.photos/200" alt="Florin Pop">
+            </div>
+            <div class="user-info">
+                <h2>Name</h2>
+                <p>Bio</p>
+
+                <ul class="info">
+                    <li>###<strong>Followers</strong></li>
+                    <li>##<strong>Following</strong></li>
+                    <li>###<strong>Repos</strong></li>
+                </ul>
+
+                <div id="repos">
+                    <a class="repo" href="#" target="_blank">Repo 1</a>
+                    <a class="repo" href="#" target="_blank">Repo 2</a>
+                    <a class="repo" href="#" target="_blank">Repo 3</a>
                 </div>
             </div>
-        </div>
-    </div>
-    <script src="js/app.js"></script>
+        </div> -->
+    </main>
 </body>
 
 </html>
